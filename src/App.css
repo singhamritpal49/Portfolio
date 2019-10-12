@@ -30,7 +30,12 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
   background: #2b5876;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+text-align: center;
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .avatar-img {
@@ -61,4 +66,48 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
   color: white;
   font-size: 20px;
   padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 4em;
+
+}
+
+.contact-body {
+  margin: auto;
+  background: gray;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  border: 2px soild red;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Source Serif Pro', serif;
+
+}
+
+.contact-grid p {
+  font-family: 'Source Serif Pro', serif;
+
 }
