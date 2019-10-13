@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Cell, Grid, List, ListItem, ListItemContent } from 'react-mdl'
-import me from '../profilepic.png'
+import { Cell, Grid } from 'react-mdl'
+// import me from '../profilepic.png'
+import me from '../Enlight117.jpg'
 class About extends Component {
     render() {
         return (
@@ -11,7 +12,8 @@ class About extends Component {
                         <img
                             src={me}
                             alt="avatar"
-                            style={{ height: '250px', fontFamily: 'Indie Flower' }}
+                            style={{ height: '310px', fontFamily: 'Indie Flower',  'border-radius': '8px'
+                        }}
                         />
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}> Full Stack Developer with experience building web applications. With experience using frontend and backend technologies
                             such as  Ruby on Rails, JavaScript, and React and a background in Electrical Engineering and Tax Accounting. As a Flatiron

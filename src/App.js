@@ -19,7 +19,7 @@ function App() {
                 <Drawer title="P O R T F O L I O">
                     <Navigation>
                         <Link to="/">Home</Link>
-                        <Link to="/resume">Resume</Link>
+                        <a href="https://drive.google.com/open?id=175A_zMpamke1EdZdkAadP4fd_QJNed9s">Resume</a>
                         <Link to="/projects">Project</Link>
                         <Link to="/aboutme">About</Link>
                         <Link to="/contact">Contact</Link>

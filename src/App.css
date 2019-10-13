@@ -21,17 +21,33 @@
   color: #09d3ac;
 } */
 .header-top {
-  background: #2b5876;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2b5876; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4e4376,
+    #2b5876
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4e4376,
+    #2b5876
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #2b5876;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-text-align: center;
-position: fixed;
+  background: #2b5876; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4e4376,
+    #2b5876
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4e4376,
+    #2b5876
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -44,20 +60,22 @@ position: fixed;
 }
 .banner-text {
   background-color: black;
-  opacity: .8;
+  opacity: 0.8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  /* margin-top: -5em; */
 }
 
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: white;
+  /* font-family: 'Crimson Text', serif; */
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 1px solid white;
   width: 50%;
   margin: auto;
 }
@@ -78,7 +96,6 @@ position: fixed;
 .social-links i {
   color: white;
   font-size: 4em;
-
 }
 
 .contact-body {
@@ -88,7 +105,8 @@ position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em
+  padding-top: 2em;
+  /* padding-top: 5em; */
 }
 
 .contact-grid {
@@ -103,11 +121,9 @@ position: fixed;
 }
 
 .contact-grid h2 {
-  font-family: 'Source Serif Pro', serif;
-
+  font-family: "Source Serif Pro", serif;
 }
 
 .contact-grid p {
-  font-family: 'Source Serif Pro', serif;
-
+  font-family: "Source Serif Pro", serif;
 }
