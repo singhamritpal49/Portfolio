@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Card, CardTitle, CardText, Button, CardActions, CardMenu, IconButton, Tabs, Tab } from 'react-mdl'
+import { Grid, Cell, Card, CardTitle, CardText, Button, CardActions, Tabs, Tab } from 'react-mdl'
+// CardMenu, IconButton, 
 class Project extends Component {
     state = {
         activeTab: 0
@@ -18,9 +19,9 @@ class Project extends Component {
                         <Button href="https://github.com/singhamritpal49/law-enforcement-system-FrontEnd" colored>GitHub Frontend</Button>
                         <Button colored>Demo (Coming Soon) </Button>
                     </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
+                    {/* <CardMenu style={{ color: '#fff' }}>
                         <IconButton name="share" />
-                    </CardMenu>
+                    </CardMenu> */}
                 </Card>
             )
         }
@@ -36,9 +37,9 @@ class Project extends Component {
                         <Button href="https://github.com/singhamritpal49/GregsList/tree/master/backend" colored>GitHub Frontend</Button>
                         <Button colored>Demo (Coming Soon) </Button>
                     </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
+                    {/* <CardMenu style={{ color: '#fff' }}>
                         <IconButton name="share" />
-                    </CardMenu>
+                    </CardMenu> */}
                 </Card>
             )
         }
@@ -53,9 +54,9 @@ class Project extends Component {
                         <Button href="https://github.com/singhamritpal49/reservations" colored>GitHub</Button>
                         <Button colored>Demo (Coming Soon) </Button>
                     </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
+                    {/* <CardMenu style={{ color: '#fff' }}>
                         <IconButton name="share" />
-                    </CardMenu>
+                    </CardMenu> */}
                 </Card>
             )
         }
@@ -70,9 +71,9 @@ class Project extends Component {
                         <Button href="https://github.com/singhamritpal49/Appointments-CLI/tree/Amrit-EDTING" colored>GitHub</Button>
                         <Button colored>Demo (Coming Soon) </Button>
                     </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
-                        <IconButton name="share" />
-                    </CardMenu>
+                    {/* <CardMenu style={{ color: '#fff' }}> */}
+                        {/* <IconButton name="share" />
+                    </CardMenu> */}
                 </Card>
             )
         }

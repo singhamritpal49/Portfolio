@@ -6,6 +6,7 @@ import About from './about';
 import Projects from './projects';
 import Contact from './contact';
 import Resume from './resume';
+import Sent from './sent';
 
 
 class Main extends Component {
@@ -18,6 +19,7 @@ class Main extends Component {
                     <Route path="/projects" component={Projects} />
                     <Route path="/contact" component={Contact} />
                     <Route path="/resume" component={Resume} />
+                    <Route path="/sent" component={Sent} />
                 </Switch>
             </div>
         );
