@@ -65,7 +65,7 @@ class Project extends Component {
                 <Card shadow={5} style={{ width: '450px', margin: 'auto' }} >
                     <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://learnworthy.net/wp-content/uploads/2019/08/A-Complete-Guide-to-the-Ruby-Programming-World.png) center / cover' }}>Appointments</CardTitle>
                     <CardText>
-                        Website that allows users to create Restaurant Reservations
+                        Website that allows users to create appointments
                     </CardText>
                     <CardActions border>
                         <Button href="https://github.com/singhamritpal49/Appointments-CLI/tree/Amrit-EDTING" colored>GitHub</Button>

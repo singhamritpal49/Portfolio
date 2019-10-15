@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Cell, Grid, Textfield, Button } from 'react-mdl'
 import * as emailjs from 'emailjs-com'
-// import {  Route } from 'react-router-dom'
+
 
 
 
@@ -31,17 +31,6 @@ class Contact extends Component {
     handleSubmit = (event) => {
         event.preventDefault()
         const { name, email, message } = this.state
-        // let templateParams = {
-        //     from_name: email,name,
-        //     to_name: 'Amritpal',
-        //     message_html: message,
-        //    }
-        //    emailjs.send(
-        //     'gmail',
-        //     'template_mxasHcu2',
-        //      templateParams,
-        //     'user_enegwgpZegOB1rxDXhL4h'
-        //    )
            emailjs.send(
             'gmail',
             'template_mxasHcu2',
@@ -49,9 +38,8 @@ class Contact extends Component {
             'user_enegwgpZegOB1rxDXhL4h'
            )
            this.resetForm()
-            // alert("Message Sent")
+ 
            this.props.history.push('/sent');
-
     }
 
     
@@ -92,6 +80,7 @@ class Contact extends Component {
                                         onChange={(event) => { this.handleEmailChange(event) }}
                                         label="Email"
                                         type="email"
+                                        required="true"
                                         style={{ width: '200px' }}
                                     // for="email"
                                     />

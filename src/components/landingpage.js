@@ -6,12 +6,13 @@ import '../App.css';
 
 class Landing extends Component {
     render() {
+        console.log(process.env.EMAIL_JS_ID_KEY)
         return (
-            
             <div style={{ width: '100%', margin: 'auto' }} >
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
+                        
                             // src="https://icon-library.net/images/avatar-icon-png/avatar-icon-png-8.jpg"
                             src={me}
                             alt="Avitor"
@@ -36,10 +37,7 @@ class Landing extends Component {
                             <a href="https://medium.com/@singhamritpal49" rel="noopener noreferrer" target="_blank">
                                 <i className="fab fa-medium-m" aria-hidden="true" />
                             </a>
-                            {/* Instagram */}
-                            {/* <a href="https://instagram.com/singhamritpal1" rel="noopener noreferrer" target="_blank">
-                                <i className="fab fa-instagram" aria-hidden="true" />
-                            </a> */}
+                            
 
                         </div>
                     </div>

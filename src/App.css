@@ -48,6 +48,8 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
+  /* position: relative; */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -57,12 +59,15 @@
 .avatar-img {
   height: 250px;
   padding-top: 5em;
+
+
 }
 .banner-text {
   background-color: black;
   opacity: 0.8;
-  width: 75%;
+  width: 80%;
   margin: auto;
+  margin-top: 10px;
   border-radius: 10px;
   /* margin-top: -5em; */
 }
@@ -117,6 +122,8 @@
   color: black;
   border: 2px soild red;
   margin-bottom: 20px;
+  margin-top: 20px;
+
 } 
 
 .contact-grid h2 {
@@ -156,3 +163,11 @@
 }
 
 
+.mdl-tabs__tab-bar {
+  margin-top: 37px;
+}
+
+
+body {
+  -webkit-overflow-scrolling: touch;
+}
