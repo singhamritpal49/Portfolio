@@ -10,7 +10,7 @@ function App() {
                 <Header className="header-top" title="P O R T F O L I O" scroll>
                     <Navigation>
                         <Link to="/">Home</Link>
-                        <a href="https://drive.google.com/open?id=175A_zMpamke1EdZdkAadP4fd_QJNed9s">Resume</a>
+                        <a href="https://drive.google.com/file/d/1A7fAvp6zG41ygbJegtfRzT0dqqOqo4rz/view?usp=sharing">Resume</a>
                         <Link to="/projects">Projects</Link>
                         <Link to="/aboutme">About</Link>
                         <Link to="/contact">Contact</Link>
@@ -19,7 +19,7 @@ function App() {
                 <Drawer title="P O R T F O L I O">
                     <Navigation>
                         <Link to="/">Home</Link>
-                        <a href="https://drive.google.com/open?id=175A_zMpamke1EdZdkAadP4fd_QJNed9s">Resume</a>
+                        <a href="https://drive.google.com/file/d/1A7fAvp6zG41ygbJegtfRzT0dqqOqo4rz/view?usp=sharing">Resume</a>
                         <Link to="/projects">Project</Link>
                         <Link to="/aboutme">About</Link>
                         <Link to="/contact">Contact</Link>

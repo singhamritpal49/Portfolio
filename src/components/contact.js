@@ -72,6 +72,7 @@ class Contact extends Component {
                                     <Textfield
                                         onChange={(event) => { this.handleNameChange(event) }}
                                         label="Name"
+                                        required="true"
                                         style={{ width: '200px' }}
                                     // for="name"
                                     />
@@ -88,6 +89,7 @@ class Contact extends Component {
                                     <Textfield
                                         onChange={(event) => { this.handleMessageChange(event) }}
                                         label="Message"
+                                        required="true"
                                         rows={3}
                                         style={{ width: '200px' }}
                                     // for="message"

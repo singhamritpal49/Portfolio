@@ -6,7 +6,7 @@ import '../App.css';
 
 class Landing extends Component {
     render() {
-        console.log(process.env.EMAIL_JS_ID_KEY)
+
         return (
             <div style={{ width: '100%', margin: 'auto' }} >
                 <Grid className="landing-grid">
@@ -43,7 +43,7 @@ class Landing extends Component {
                     </div>
                 </Grid>
                 
-
+                
             </div>
         );
     }
