@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Cell, Grid } from 'react-mdl'
 // import me from '../profilepic.png'
-import me from '../Enlight117.jpg'
+import me from '../Enlight1172.jpg'
 class About extends Component {
     render() {
         return (

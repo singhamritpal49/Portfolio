@@ -6,6 +6,7 @@ class Sent extends Component {
             <div className="sent" >
                 Thank You
                 Your Message Has Been Sent
+                
             </div>
         );
     }
