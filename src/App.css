@@ -79,6 +79,16 @@
   /* font-family: 'Crimson Text', serif; */
 }
 
+.mdl-layout__drawer-button{
+  display: none;
+}
+
+@media screen and (max-width:1020px){
+  .mdl-layout__drawer-button{
+    display: inline;
+  }
+}
+
 .banner-text hr {
   border-top: 1px solid white;
   width: 50%;
