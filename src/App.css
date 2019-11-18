@@ -79,7 +79,7 @@
   /* font-family: 'Crimson Text', serif; */
 }
 
-.mdl-layout__drawer-button{
+/* .mdl-layout__drawer-button{
   display: none;
 }
 
@@ -87,7 +87,7 @@
   .mdl-layout__drawer-button{
     display: inline;
   }
-}
+} */
 
 .banner-text hr {
   border-top: 1px solid white;
