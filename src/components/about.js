@@ -20,9 +20,10 @@ class About extends Component {
                         }}
                         />
                         
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}> Full Stack Developer with experience building web applications. With experience using frontend and backend technologies
-                            such as  Ruby on Rails, JavaScript, and React and a background in Electrical Engineering and Tax Accounting. As a Flatiron
-                             School Software Engineering graduate, I am excited to utilize my skills to develop creative applications.
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}> Full Stack Developer with experience using frontend and backend technologies such as Ruby, Ruby on Rails, JavaScript, and
+React. I have a background in Electrical Engineering. Previously worked 6 plus years as lead IT Technician,
+I bring strong skills in collaborating with teams, solving problems, by using innovative ideas, and creativity for accomplishing
+projects.
                              Email: singhamritpal49@gmail.com
                         </p>
                     </Cell>
