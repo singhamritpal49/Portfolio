@@ -78,6 +78,24 @@ class Project extends Component {
                 </Card>
             )
         }
+        else if (this.state.activeTab === 4) {
+            return (
+                <Card shadow={5} style={{ width: '450px', margin: 'auto' }} >
+                    <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-media-1.freecodecamp.org/images/1*DF0g7bNW5e2z9XS9N2lAiw.jpeg) center / cover' }}>Task Manager (BackEnd Server) </CardTitle>
+                    <CardText>
+                        Node.js Application That allows users to create tasks
+                    </CardText>
+                    <CardActions border>
+                        <Button href="https://github.com/singhamritpal49/task-manager" colored>GitHub</Button>
+                        
+                    </CardActions>
+                    {/* <CardMenu style={{ color: '#fff' }}> */}
+                        {/* <IconButton name="share" />
+                    </CardMenu> */}
+                </Card>
+            )
+        }
+        
         
         
         
@@ -92,6 +110,8 @@ class Project extends Component {
                     <Tab>JavaScript</Tab>
                     <Tab>Rails</Tab>
                     <Tab>Ruby</Tab>
+                    <Tab>Node</Tab>
+
 
                 </Tabs>
                 <section className="projects-grid">

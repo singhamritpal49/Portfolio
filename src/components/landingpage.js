@@ -21,9 +21,9 @@ class Landing extends Component {
                         
                     </Cell>
                     <div className="banner-text">
-                        <h1> Full Stack Developer</h1>
+                        <h1> Full Stack Engineer</h1>
                         <hr />
-                        <p>Ruby | Rails | JavaScript | React | HTML | CSS | Postgresql | SQLite | JWT | API | OOP | JSON | GitHub </p>
+                        <p>Ruby | Rails | JavaScript | Node | React | Express | HTML | CSS | MongoDB | Postgresql | SQLite | JWT | API | OOP | JSON | GitHub </p>
                         <div className="social-links">
                             {/* linkedin */}
                             <a href="https://www.linkedin.com/in/amritpal-singh-2108b4168/" rel="noopener noreferrer" target="_blank">
